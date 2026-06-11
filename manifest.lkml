@@ -1,17 +1,17 @@
 project_name: "agent-analytics"
 
 constant: CONNECTION_NAME {
-  value: "bq-conection"
+  value: "default_bigquery_connection"
   export: override_optional
 }
 
 constant: PROJECT_ID {
-  value: "project-id"
+  value: "bq-dataframes-demo"
   export: override_optional
 }
 
 constant: DATASET_NAME {
-  value: "agent_analytics"
+  value: "cymbal_bank"
   export: override_optional
 }
 
