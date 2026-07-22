@@ -1,23 +1,13 @@
 project_name: "agent-analytics"
 
-constant: CONNECTION_NAME {
-  value: "bq-conection"
-  export: override_optional
-}
-
 constant: PROJECT_ID {
-  value: "project-id"
-  export: override_optional
+  value: "aura-prototype-sandbox-777025"
 }
-
 constant: DATASET_NAME {
-  value: "agent_analytics"
-  export: override_optional
+  value: "aura_telemetry_dev"
 }
-
 constant: TABLE_NAME {
-  value: "agent_events"
-  export: override_optional
+  value: "events_raw"
 }
 
 constant: VIZ_AREA_CHART {
