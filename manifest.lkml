@@ -1,5 +1,10 @@
 project_name: "agent-analytics"
 
+constant: CONNECTION_NAME {
+  value: "default_bigquery_connection"
+  export: override_optional
+}
+
 constant: PROJECT_ID {
   value: "aura-prototype-sandbox-777025"
 }
